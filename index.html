@@ -16,9 +16,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Food Online</title>
+  </head>
 
-    <style>
-       table {
+  <style>
+    body{
+        background-image: url("images/back.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#f5c842;
+  color: brown;
+  text-align: center;
+    }
+    table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width:500px;
@@ -36,16 +52,8 @@
   
   }
 
-    </style>
-  </head>
-
-  <style>
-    body{
-        background-image: url("images/back.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-
-    }
+   
+    
   </style>
   <body>
 
@@ -63,7 +71,7 @@
               <a class="nav-link" style="color: brown; font-weight: bold;" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: brown; font-weight: bold;" href="AllHotels.html">Hotel Booking</a>
+              <a class="nav-link" style="color: brown; font-weight: bold;" href="allHotels.html">Hotel Booking</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" style="color: brown; font-weight: bold;" href="aboutus.html">Abouts</a>
@@ -111,7 +119,12 @@
         </div>
       </div>
 
-   <!-- Optional JavaScript -->
+   
+      
+      <div class="footer">
+        <h1>FoodJunction</h1>
+      </div>
+
 </body>
 
 
@@ -143,7 +156,7 @@ function order(id){
   window.location.href="login.html";
 }
 
-</script>
+
 
 </script>
 </html>
