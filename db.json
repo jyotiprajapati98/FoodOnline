@@ -1,0 +1,81 @@
+{
+    "category":[
+        {
+            "id":1,
+            "name":"Chinese"
+        },
+        {
+            "id":2,
+            "name":"Italian"
+        },
+        {
+            "id":3,
+            "name":"North-Indian"
+        },
+        {
+            "id":4,
+            "name":"South-Indian"
+        },
+        {
+            "id":4,
+            "name":"India Snacks"
+        }
+    ],
+    "hotels":[
+        {
+            "id":1,
+            "name":"Hotel Rajgharana"
+            
+        },
+        {
+            "id":2,
+            "name":"Tajmahal"
+        },
+        {
+            "id":3,
+            "name":"King Fort"
+        },
+        {
+            "id":4,
+            "name":"Parks for Your"
+        },
+        {
+            "id":4,
+            "name":"Lotous"
+        }
+    ],
+    "foods":[
+        {
+            "id":1,
+            "name":"Paneer Kabab",
+            "Price":"Price : 250/"
+        },
+        {
+            "id":2,
+            "name":"Full Veg Thaali",
+            "Price":"Price : 350/"
+        },
+        {
+            "id":3,
+            "name":"Veg Green Snadwich",
+            "Price":"Price : 100/"
+        }
+    ],
+    "users":[
+        {
+            "id":1,
+            "name":"jyoti",
+            "password":"jyoti",
+            "address":"rajfamily"
+        }
+    ],
+    "order":[
+        {
+            "id":1,
+            "name":"jyoti",
+            "address":"rajfamily",
+            "food name":"Veg Green Snadwich",
+            "Price":"Price : 100/"
+        }
+    ]
+}
